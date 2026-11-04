@@ -20,12 +20,12 @@ const CONFIG = {
   // Fotos: coloca tus imágenes en la carpeta "img"
   // y pon aquí el nombre de cada archivo y una frase corta.
   fotos: [
-    { archivo: "img/foto1.jpeg", texto: "Nuestro primer día" },
-    { archivo: "img/foto2.jpeg", texto: "Mi lugar favorito, contigo" },
-    { archivo: "img/foto3.jpeg", texto: "Cuando nos reímos sin parar" },
-    { archivo: "img/foto4.jpeg", texto: "Ese viaje inolvidable" },
-    { archivo: "img/foto5.jpeg", texto: "Tú, tan hermosa" },
-    { archivo: "img/foto6.jpeg", texto: "Lo que viene" }
+    { archivo: "img/foto1.jpeg", texto: "El viaje que dimos al Balcon de Diablo" },
+    { archivo: "img/foto2.jpeg", texto: "El dia que conociste a ni familia" },
+    { archivo: "img/foto3.jpeg", texto: "Nuestro primer viaje juntos antes de ´Hueco, Hueco´ jaja" },
+    { archivo: "img/foto4.jpeg", texto: "El dia que baile para  tu Escuela" },
+    { archivo: "img/foto5.jpeg", texto: "La vez que la moto nos traiciono jejeje" },
+    { archivo: "img/foto6.jpeg", texto: "El antes de casi quedarnos conjelados por el agua jajaja" }
   ],
 
   razones: [
@@ -51,3 +51,4 @@ const CONFIG = {
   ]
 };
 /* ================================================================ */
+
