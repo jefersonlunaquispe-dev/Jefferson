@@ -7,7 +7,7 @@ const CONFIG = {
   fechaInicio: "2026-06-04",         // Desde cuándo están juntos (AAAA-MM-DD)
 
   // Login actualizado con la contraseña "4dejunio"
-  hashLogin: "20a1ebf2ecb48cb36db16e0edb229ebbfd616892e626154673f8a0ff6d14902c",
+  hashLogin: "4dejunio",
   pistaLogin: "Pista: la fecha en que empezó todo",
 
   // Música: coloca tu canción (mp3) en la carpeta "musica"
