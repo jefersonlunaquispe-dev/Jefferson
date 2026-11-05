@@ -4,15 +4,20 @@ async function sha256(t){
   const b = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(t));
   return [...new Uint8Array(b)].map(x => x.toString(16).padStart(2, '0')).join('');
 }
+// ---------- Login ----------
 function abrir(){ document.body.classList.remove('locked'); }
 try { if (sessionStorage.getItem('ok') === '1') abrir(); } catch(e) {}
 document.getElementById('pista').textContent = CONFIG.pistaLogin || '';
-document.getElementById('formLogin').addEventListener('submit', async e => {
+
+document.getElementById('formLogin').addEventListener('submit', e => {
   e.preventDefault();
   const u = document.getElementById('usuario').value.trim().toLowerCase();
-  const c = document.getElementById('clave').value;
+  const c = document.getElementById('clave').value.trim();
   const error = document.getElementById('errorLogin');
-  if (await sha256(u + ':' + c) === CONFIG.hashLogin){
+
+  // Aquí ponemos la validación directa sin códigos raros
+  // Tu usuario será "guadalupe" y la contraseña "4dejunio"
+  if (u === 'guadalupe' && c === '4dejunio'){
     try { sessionStorage.setItem('ok', '1'); } catch(e) {}
     error.hidden = true; abrir(); window.scrollTo(0, 0); iniciarMusica();
   } else {
