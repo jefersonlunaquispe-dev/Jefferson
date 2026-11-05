@@ -6,10 +6,9 @@ const CONFIG = {
   tuNombre: "Jefferson",             // Cómo firmas
   fechaInicio: "2026-06-04",         // Desde cuándo están juntos (AAAA-MM-DD)
 
-  // Login. Este hash corresponde a  usuario: guadalupe  /  contraseña: tequieromucho
-  // Para crear el tuyo, mira la sección "Cambiar usuario y contraseña" en LEEME.txt.
-  hashLogin: "185379cc5431333614fda90fd0405e027faa9b606405d146c8860d2cfac5dc56",
-  pistaLogin: "Pista: lo que siempre te digo al despedirme",
+  // Login actualizado con la contraseña "4dejunio"
+  hashLogin: "20a1ebf2ecb48cb36db16e0edb229ebbfd616892e626154673f8a0ff6d14902c",
+  pistaLogin: "Pista: la fecha en que empezó todo",
 
   // Música: coloca tu canción (mp3) en la carpeta "musica"
   musica: { archivo: "musica/cancion.mp3", titulo: "Nuestra canción" },
