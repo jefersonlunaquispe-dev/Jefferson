@@ -157,8 +157,10 @@ firma.className = 'sign'; firma.textContent = "Con amor, " + CONFIG.tuNombre;
 carta.appendChild(firma);
 
 // Contador correlativo desde el 4 de junio de 2026
+// Contador correlativo desde el 4 de junio de 2026 a las 12:00 PM (mediodía)
 function actualizar(){
-  const inicio = new Date(CONFIG.fechaInicio + "T00:00:00");
+  // Cambiamos a "T12:00:00" para que inicie a las 12:00 pm (mediodía)
+  const inicio = new Date(CONFIG.fechaInicio + "T12:00:00");
   const ahora = new Date();
   const contador = document.getElementById('contador');
 
